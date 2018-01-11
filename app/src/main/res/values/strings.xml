@@ -2,4 +2,6 @@
     <string name="app_name">ConstraintLayout Animation</string>
     <string name="animation">Animation</string>
     <string name="start">Start Animation</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
 </resources>

@@ -19,17 +19,20 @@
     <TextView
         android:id="@+id/title"
         android:layout_width="@dimen/text_width"
-        android:layout_height="33dp"
-        android:text="@string/app_name"
+        android:layout_height="@dimen/text_height"
+        android:text="@string/title"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
     <TextView android:layout_width="@dimen/text_width"
         android:layout_height="@dimen/text_height"
         android:id="@+id/sub"
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:text="@string/animation"
+        android:text="@string/description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
         />
     <ImageView
         android:layout_width="@dimen/image_width"
